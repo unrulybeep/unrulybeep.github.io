@@ -41,9 +41,12 @@ compress_html:
 
 #collection
 collections:
-  projects:
-    output: true
-    permalink: projects/:path/
+  - projects:
+      output: true
+#    permalink: projects/:path/
+  - resume:
+      output: true
+
 
 include:
   - _pages
