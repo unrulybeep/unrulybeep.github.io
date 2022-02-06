@@ -7,6 +7,8 @@ baseurl: / #name of GitHub repository
 url: "https://unrulybeep.github.io/" #custom url to be used instead of GitHub repository
 email: #
 
+sass:
+    sass_dir: css/_sass
 
 highlighter: rouge
 markdown: kramdown
