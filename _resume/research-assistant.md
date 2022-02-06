@@ -1,6 +1,12 @@
 ---
 layout: post
-title: Home They Brought Her Warrior Dead 
+company: Gender, Women, and Sexuality Studies Department at University of Washington
+location: Seattle, WA, USA
+title: Research Assistant
+started: 2019
+duration: (January 2019 - June 2019)
+description:
+collection: resume
 ---
 
 Home they brought her warrior dead:  

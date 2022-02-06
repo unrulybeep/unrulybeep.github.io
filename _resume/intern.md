@@ -1,6 +1,11 @@
 ---
 layout: post
-title:  "A sample post"
+company: ChickTech
+location: Remote, USA
+title: Intern - Rural High School Program
+started: 2018
+duration: (September 2018 - December 2018)
+description:
 collection: resume
 ---
 

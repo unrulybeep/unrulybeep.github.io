@@ -1,6 +1,11 @@
 ---
 layout: post
-title: "The Adventures of Sherlock Holmes"
+company: Gender, Women, and Sexuality Studies Department at University of Washington
+location: Seattle, WA, USA
+title: Student Assistant
+started: 2019
+duration: (April 2019 - June 2019)
+description:
 collection: resume
 ---
 
