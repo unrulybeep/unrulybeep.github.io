@@ -3,6 +3,7 @@ title:
 layout: default
 permalink: resume/
 published: true
+collection: resume
 ---
 
 This is showing up.
@@ -10,7 +11,7 @@ This is showing up.
   {% for exp in site.resume %}
 
   <div class="projectTile">
-          <a href="{{ exp.url }}">
+    <a href="{{ exp.url }}">
           <span>
               <h2>{{ exp.title }}</h2>
               <br/>
