@@ -7,6 +7,7 @@ started: 2019
 duration: (July 2019 - Present)
 description: The Program Coordinator – Student Advising position provides general coordination and reception duties for the Allen School Graduate Advising Team. Additional duties will include special event planning and general administrative/clerical support to the department. This position will report to the Director of Graduate Student Services.
 type: employment
+collection: resume
 ---
 
 “My will? Yes, certainly, I know that,” said the doctor, a trifle sharply. “You have told me so.”

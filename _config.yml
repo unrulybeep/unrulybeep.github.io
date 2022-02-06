@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Your Name
-description: subtitle | affiliations | motto
+description: pronouns they/them | affiliations | motto
 
 baseurl: / #name of GitHub repository
 url: "https://unrulybeep.github.io/" #custom url to be used instead of GitHub repository
@@ -18,12 +18,8 @@ paginate: 4
 paginate_path: page:num/
 
 # Social media links in footer
-facebook: "#"
-twitter: "#"
 linkedin: "#"
 github: "#"
-researchgate: "#"
-orcid: "#"
 
 highlighter: rouge
 markdown: kramdown
@@ -41,15 +37,12 @@ compress_html:
 
 #collection
 collections:
-  - projects:
-      output: true
-#    permalink: projects/:path/
-  - resume:
-      output: true
-
-
-include:
-  - _pages
+  projects:
+    output: true
+    permalink: /projects/:path/
+  resume:
+    output: true
+    permalink: /resume/:path/
 
 exclude:
   - README.md
