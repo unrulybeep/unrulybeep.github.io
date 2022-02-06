@@ -8,7 +8,7 @@ url: "https://unrulybeep.github.io/" #custom url to be used instead of GitHub re
 email: #
 
 sass:
-    sass_dir: assets/css/_sass
+    sass_dir: /assets/css/_sass
 
 highlighter: rouge
 markdown: kramdown
