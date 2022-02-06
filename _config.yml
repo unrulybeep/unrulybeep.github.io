@@ -3,8 +3,8 @@
 title: Your Name
 description: subtitle | affiliations | motto
 
-baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+baseurl: / #name of GitHub repository
+url: "https://unrulybeep.github.io/" #custom url to be used instead of GitHub repository
 email: #
 
 
@@ -13,8 +13,7 @@ markdown: kramdown
 
 # Pagination
 paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+paginate_path: page:num/
 
 # Social media links in footer
 facebook: "#"
@@ -26,9 +25,6 @@ orcid: "#"
 
 highlighter: rouge
 markdown: kramdown
-
-# Tracker
-analytics:
 
 #optimization -> compress.html
 compress_html:
@@ -45,11 +41,7 @@ compress_html:
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
-
-sass:
-  sass_dir: /assets/css/_sass
-  style: compressed
+    permalink: projects/:path/
 
 include:
   - _pages
@@ -59,7 +51,5 @@ exclude:
   - LICENSE.md
 
 plugins:
-  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-email-protect
-  - jekyll-target-blank
