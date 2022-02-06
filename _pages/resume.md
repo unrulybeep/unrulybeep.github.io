@@ -5,23 +5,6 @@ permalink: resume/
 published: true
 collection: resume
 ---
-
-This is showing up.
-
-  {% for exp in site.resume %}
-
-  <div class="projectTile">
-    <a href="{{ exp.url }}">
-          <span>
-              <h2>{{ exp.title }}</h2>
-              <br/>
-              <p>{{ exp.description }}</p>
-          </span>
-          </a>
-  </div>
-
-  {% endfor %}
-
   <div class="container-fluid">
       <div class="row-fluid">
           <div class="col-md-8">
@@ -40,7 +23,7 @@ This is showing up.
                                       <p>
                                           <small class="text-muted">
                                               {% if exp.title %}
-                                                  {{ exp.title }}
+                                                <a href="{{ exp.url }}">{{ exp.title }}</a>
                                               {% endif %}
                                           </small>
                                       </p>
