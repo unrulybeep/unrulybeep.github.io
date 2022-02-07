@@ -7,6 +7,7 @@ started: 2019
 duration: (April 2019 - June 2019)
 description:
 collection: resume
+type: employment
 ---
 
 "But if he is innocent, who has done it?"

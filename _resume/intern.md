@@ -7,6 +7,7 @@ started: 2018
 duration: (September 2018 - December 2018)
 description:
 collection: resume
+type: employment
 ---
 
 Truly it was a great journey, and in it I met with many, whom to know was to love; but whom never could I see again; for life has not space enough; and each must do his duty to the security and well-being of the Redoubt. Yet, for all that I have set down, we travelled much, always; but there were so many millions, and so few years.

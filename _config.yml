@@ -41,6 +41,11 @@ collections:
     output: true
   resume:
     output: true
+    order:
+      - program-coordinator.md
+      - research-assistant.md
+      - student-assistant.md
+      - intern.md
 
 include: ['_pages', '_projects', '_resume']
 
