@@ -11,6 +11,10 @@ collection: resume
         <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
         {% assign section = site.resume | where:"type","employment" %}
         {% include timeline.html %}
+
+        <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
+        {% assign section = site.resume | where:"type","education" %}
+        {% include timeline.html %}
       </div>
     </div>
   </div>
