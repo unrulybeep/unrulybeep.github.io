@@ -14,6 +14,25 @@ collection: resume
     <div class="row">
       <div class="col-md-8">
 
+        <div id="pitch">
+          <h3 class="title with-icon">
+            <span class="glyphicon glyphicon-blackboard cat-title"></span>Elevator
+          Pitch
+          </h3>
+          <div class="timeline-panel grid-block">
+            I bring the capacity to ask questions about diversity that are not
+            anchored solely at the individual level but also at the institutional
+            level. I have over 20 years experience with technical skills acquired
+            through formal computer science coursework in HTML/CSS, Javascript
+            and Java at Portland Community College and the University of
+            Washington and self-directed on-the-job skill development of
+            Bootstrap, Google App Scripts, Excel, React.js, and XXXXX. My
+            understanding of programming languages, through learning Softcode ,
+            makes me a skilled reader and debugger of code, and I am adept at
+            reviewing existing or problematic code to identify and
+            reverse-engineer elegant solutions.</div>
+          </div>
+
         <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
         {% assign section = site.resume | where:"type","employment" %}
         {% include timeline.html %}

@@ -51,7 +51,7 @@ include: ['_pages', '_projects', '_resume']
 
 programmingSkills:
   - skill1:
-    name: "HTML/CSS"
+    name:
     percentage: 100%
   - skill2:
     name: "Bootstrap"
@@ -65,6 +65,9 @@ programmingSkills:
   - skill5:
     name: "Google App Scripts (GAS)"
     percentage: 75%
+  - skill6:
+    name: "Liquid"
+    percentage: 75%
 designSkills:
   - skill1:
     name: "Photoshop"
@@ -73,11 +76,11 @@ designSkills:
     name: "InDesign"
     percentage: 40%
   - skill3:
-    name:
-    percentage: 70%
+    name: "HTML/CSS"
+    percentage: 100%
   - skill4:
-    name:
-    percentage: 70%
+    name: "Sass"
+    percentage: 90%
   - skill5:
     name:
     percentage: 75%
