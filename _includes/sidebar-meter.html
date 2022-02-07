@@ -1,0 +1,14 @@
+<div class="grid-block">
+    <ul class="list-unstyled list-skills">
+        {% for data in section %}
+            <li>
+              <span class="caption-skill">{{ data.name }}</span>
+              <div class="progress">
+                <div class="progress-bar" style="width: {{ data.percentage }}">
+                  <span>{{ data.percentage }} </span>
+                </div>
+              </div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

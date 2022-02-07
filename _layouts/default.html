@@ -4,10 +4,24 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
+  <div class="default-width">
+    <h1 class="post-headline">{{site.title}}</h1>
+    <h3 class="post-description">{{site.description}}</h3>
+
+    {% include navigation.html %}
+  </div>
     <body>
-        <main>
+      <main>
             <article>
+              {% if page.width %}
+              <div class="{{ page.width }}-width">
                 {{ content }}
+              </div>
+              {% else %}
+              <div class="default-width">
+                {{content}}
+              </div>
+              {% endif %}
             </article>
         </main>
 

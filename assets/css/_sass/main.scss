@@ -2,10 +2,15 @@ html, body {
   height: 100%;
 }
 
-body {
+.default-width {
   max-width: $content-width;
-  font-family: $base-font-family;
   margin: 0 auto;
+}
+
+body {
+//  max-width: $content-width;
+  font-family: $base-font-family;
+//  margin: 0 auto;
   line-height: $base-line-height;
   font-size: $base-font-size;
   color: $text-color;
@@ -41,8 +46,6 @@ a {
 
   }
 }
-
-
 
 p a {
   color: $text-color;

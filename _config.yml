@@ -49,6 +49,23 @@ collections:
 
 include: ['_pages', '_projects', '_resume']
 
+programmingSkills:
+  - skill1:
+    name: "HTML/CSS"
+    percentage: 100%
+  - skill2:
+    name: "Bootstrap"
+    percentage: 90%
+  - skill3:
+    name: "JavaScript"
+    percentage: 70%
+  - skill4:
+    name: "Java"
+    percentage: 70%
+  - skill5:
+    name: "Google App Scripts (GAS)"
+    percentage: 75%
+
 exclude:
   - README.md
   - LICENSE.md
