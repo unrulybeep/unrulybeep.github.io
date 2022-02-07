@@ -27,10 +27,8 @@ collection: resume
             and Java at Portland Community College and the University of
             Washington and self-directed on-the-job skill development of
             Bootstrap, Google App Scripts, Excel, React.js, and XXXXX. My
-            understanding of programming languages, through learning Softcode ,
-            makes me a skilled reader and debugger of code, and I am adept at
-            reviewing existing or problematic code to identify and
-            reverse-engineer elegant solutions.</div>
+            hunmble beginnings working with HTML/CSS has flourished a skilled
+            reader and debugger of code; I am adept at reviewing existing to identify and reverse-engineer elegant solutions.</div>
           </div>
 
         <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>

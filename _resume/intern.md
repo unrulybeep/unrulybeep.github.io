@@ -4,20 +4,20 @@ company: ChickTech
 location: Remote, USA
 title: Intern - Rural High School Program
 started: 2018
-duration: (September 2018 - December 2018)
-description:
+duration: September 2018 - December 2018
+description: "Supervised by Kate Filpatrick. I participated in ChickTech events,
+oversaw the organization's social media prescence, create promotional materials,
+and developed best practice informational material for volunteers leaders."
 collection: resume
 type: employment
 ---
 
-Truly it was a great journey, and in it I met with many, whom to know was to love; but whom never could I see again; for life has not space enough; and each must do his duty to the security and well-being of the Redoubt. Yet, for all that I have set down, we travelled much, always; but there were so many millions, and so few years.
-
-Atticus said to Jem one day, “I’d rather you shot at tin cans in the backyard, but I know you’ll go after birds. Shoot all the blue jays you want, if you can hit ‘em, but remember it’s a sin to kill a mockingbird.” That was the only time I ever heard Atticus say it was a sin to do something, and I asked Miss Maudie about it. “Your father’s right,” she said. “Mockingbirds don’t do one thing except make music for us to enjoy. They don’t eat up people’s gardens, don’t nest in corn cribs, they don’t do one thing but sing their hearts out for us. That’s why it’s a sin to kill a mockingbird.
-
-I took a deep breath and listened to the old brag of my heart. I am, I am, I am.
-
-We believe that we can change the things around us in accordance with our desires—we believe it because otherwise we can see no favourable outcome. We do not think of the outcome which generally comes to pass and is also favourable: we do not succeed in changing things in accordance with our desires, but gradually our desires change. The situation that we hoped to change because it was intolerable becomes unimportant to us. We have failed to surmount the obstacle, as we were absolutely determined to do, but life has taken us round it, led us beyond it, and then if we turn round to gaze into the distance of the past, we can barely see it, so imperceptible has it become.
-
-The most beautiful things in the world cannot be seen or touched, they are felt with the heart.
-
-Hello babies. Welcome to Earth. It’s hot in the summer and cold in the winter. It’s round and wet and crowded. On the outside, babies, you’ve got a hundred years here. There’s only one rule that I know of, babies-“God damn it, you’ve got to be kind.
+·	Supported development of Rural pilot by facilitating interactions between the organization chapters and their local rural communities with a focus on Native American tribes
+·	Researched case studies of previous rural Kick Off events to troubleshoot problems with creative solutions
+·	Created best practices and train-the-trainers video for 1,500 organization employees and volunteers nationwide (https://drive.google.com/open?id=1XLSfg3n6h07rksc6qKKxdUbXW9tVN-SF)
+·	Led community outreach through communication with 6 schools and 18 school contacts which I managed through Airtable, Yet Another Mail Merge, Google Drive, Google Suite
+·	Conducted social media outreach strategy focused on volunteer outreach, marketing programs, and engaging community interest
+·	Kept detailed and effective notes on my remote work, which led to high levels of communication and collaboration with my supervisor
+·	Researched Youth outreach framework
+·	Developed adaptable critical pedagogy curriculum development based in response to alleged “feminist agenda”
+·	Participated in Seattle ChickTech chapter K-4 event at Living Labs Museum teaching 60 elementary and middle school girls how to use technology to create music with Makey Makey and Ozobot.

@@ -4,24 +4,15 @@ company: Gender, Women, and Sexuality Studies Department at University of Washin
 location: Seattle, WA, USA
 title: Student Assistant
 started: 2019
-duration: (April 2019 - June 2019)
-description:
+duration: April 2019 - June 2019)
+description: "Supervised by Laura Marquez, the undergraduate adviser at the time,
+to provide me with an opportunity to see how advising operates from the staff
+perspective. As a first-generation student I was not familiar with many of the
+responsibilities of the adviser position." 
 collection: resume
 type: employment
 ---
 
-"But if he is innocent, who has done it?"
-
-"Ah! who? I would call your attention very particularly to two points. One is that the murdered man had an appointment with someone at the pool, and that the someone could not have been his son, for his son was away, and he did not know when he would return. The second is that the murdered man was heard to cry 'Cooee!' before he knew that his son had returned. Those are the crucial points upon which the case depends. And now let us talk about George Meredith, if you please, and we shall leave all minor matters until to-morrow."
-
-There was no rain, as Holmes had foretold, and the morning broke bright and cloudless. At nine o'clock Lestrade called for us with the carriage, and we set off for Hatherley Farm and the Boscombe Pool.
-
-"There is serious news this morning," Lestrade observed. "It is said that Mr. Turner, of the Hall, is so ill that his life is despaired of."
-
-"An elderly man, I presume?" said Holmes.
-
-"About sixty; but his constitution has been shattered by his life abroad, and he has been in failing health for some time. This business has had a very bad effect upon him. He was an old friend of McCarthy's, and, I may add, a great benefactor to him, for I have learned that he gave him Hatherley Farm rent free."
-
-"Indeed! That is interesting," said Holmes.
-
-"Oh, yes! In a hundred other ways he has helped him. Everybody about here speaks of his kindness to him."
+·	Designing promotional material to assist the department with outreach and student interest while performing outreach at outside educational institutions
+·	Introducing digital technology tools to the department’s academic counselor to improve communication with the undergraduate population and other actors
+·	Organizing and facilitating a number of events within and outside the UW including undergraduate events to build community on-campus, intra- and interdepartmental, and bring resources to the attention of current and potential students across a variety of backgrounds

@@ -7,8 +7,7 @@ profile:
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+I fell in love with technology as a smalltown-youth using HTML to decorate for my AOL profile. After that, I found an online community of roleplayers where I learned [Softcode](https://wiki.tinymux.org/index.php/Softcode). I am a skilled reader and debugger of code, and I am adept at reviewing existing or problematic code to identify and reverse-engineer elegant solution. Softcode created a foundation for my understanding of computer programming languages that has served me well.
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+favorite question: “Who says?”

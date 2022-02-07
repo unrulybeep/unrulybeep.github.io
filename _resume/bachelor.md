@@ -3,12 +3,12 @@ layout: post
 organization: University of Washington
 location: Seattle, WA, USA
 title: Bachelor
-started: 2019
-duration: (July 2019 - Present)
+started: 2016
+duration: 2016 - 2019
 major: Gender, Women, and Sexuality Studies
-description: The Program Coordinator – Student Advising position provides general coordination and reception duties for the Allen School Graduate Advising Team.
+description: Deans List Autumn 2017, Winter 2018, and Spring 2018; Mary Gates Scholar 2018, Husky 100 Nominee 2019
 collection: resume
 type: education
 ---
 
-Additional duties will include special event planning and general administrative/clerical support to the department. This position will report to the Director of Graduate Student Services.
+Related coursework: Computer Programming (Java) CSE 142 & 143, Introduction to Indigenous Studies: Indigenous Feminisms, Reading Native American Women’s Lives, Introduction to American Indian Studies, Feminism and Technology, Feminist Science Fiction Studies
