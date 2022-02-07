@@ -6,6 +6,10 @@ permalink: resume/
 published: true
 collection: resume
 ---
+<style>
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+
+</style>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-8">
