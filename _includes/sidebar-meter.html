@@ -1,6 +1,7 @@
 <div class="grid-block">
     <ul class="list-unstyled list-skills">
         {% for data in section %}
+          {% if data.name %}
             <li>
               <span class="caption-skill">{{ data.name }}</span>
               <div class="progress">
@@ -9,6 +10,7 @@
                 </div>
               </div>
             </li>
+            {% endif %}
         {% endfor %}
     </ul>
 </div>

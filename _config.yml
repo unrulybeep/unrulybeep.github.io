@@ -65,6 +65,68 @@ programmingSkills:
   - skill5:
     name: "Google App Scripts (GAS)"
     percentage: 75%
+designSkills:
+  - skill1:
+    name: "Photoshop"
+    percentage: 80%
+  - skill2:
+    name: "InDesign"
+    percentage: 40%
+  - skill3:
+    name:
+    percentage: 70%
+  - skill4:
+    name:
+    percentage: 70%
+  - skill5:
+    name:
+    percentage: 75%
+workshopsCerts:
+  - entry1:
+    type: "UW Workshop"
+    title:
+    instructor:
+    date:
+  - entry2:
+    type: "UW Workshop"
+    title: "How to make PDFs accessible"
+    instructor: "Anna Marie Golden, MHCID - IT Accessibility Specialist"
+    date: "June 2018"
+  - entry3:
+    type: "UW Workshop"
+    title: "How to make web content accessible"
+    instructor: "Anna Marie Golden, MHCID - IT Accessibility Specialist"
+    date: "June 2018"
+  - entry4:
+    type: "workshop"
+    title: UndocuAlly
+    instructor: "Leaders without Borders"
+    date: 2019
+    url: "https://depts.washington.edu/ecc/lwb/"
+  - entry5:
+    type: "UW Workshop"
+    title: Green Dot
+    instructor: "LiveWell UW"
+    date: 2017
+    url: "https://www.washington.edu/news/2011/12/07/green-dot-now-a-cfd-choice-seeks-to-reduce-personal-power-based-violence"
+  - entry6:
+    type: LinkedIn
+    title: "Google Apps Script for JavaScript Developers"
+    instructor: Jesse Freeman
+    date: 2021
+    url: "https://www.linkedin.com/learning/google-apps-script-for-javascript-developers"
+  - entry7:
+    type: LinkedIn
+    title: "Google Sites Essential Training"
+    instructor: Jess Stration
+    date: 2021
+    url: "https://www.linkedin.com/learning/google-sites-essential-training-3"
+  - entry8:
+    type: LinkedIn
+    title: "Microsoft Collaboration SharePoint, Teams, and Groups"
+    instructor: Gini von Courter
+    date: 2021
+    url: "https://www.linkedin.com/learning/microsoft-collaboration-sharepoint-teams-and-groups"
 
 exclude:
   - README.md
