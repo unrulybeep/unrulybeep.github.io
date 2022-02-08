@@ -12,3 +12,11 @@ type: education
 ---
 
 Related coursework: Chicano/Latino Culture and History, JavaScript for Web Developers, Introduction to Computer Games (GameMaker), Computer Science I & II, Film Studies: Documentaries, Biography & Autobiography, Ethics, Existentialism, and Philosophical Problems, Software Design
+
+4 credit JavaScript for Web Developers: A
+5 credit Statistics I: A
+4 credit Introduction to Computer Games: A
+4 credit Computer Science I: A
+4 credit Computer Science II: B
+5 credit Elementary Functions (Trigonometry): B
+4 credit Software Design (Prep class for programming using Javascript): A

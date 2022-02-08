@@ -11,4 +11,14 @@ collection: resume
 type: education
 ---
 
-Related coursework: Computer Programming (Java) CSE 142 & 143, Introduction to Indigenous Studies: Indigenous Feminisms, Reading Native American Women’s Lives, Introduction to American Indian Studies, Feminism and Technology, Feminist Science Fiction Studies
+Courses:
+- Computer Programming (Java) CSE 142 & 143
+  - {% post_url 2022-01-01-cse142-assignments %}
+  - {% post_url 2022-01-01-cse143-assignments %}
+- "Introduction to Indigenous Studies: Indigenous Feminisms"
+- "Reading Native American Women’s Lives"
+- "Introduction to American Indian Studies"
+- "Feminism and Technology"
+- "Feminist (Science) Fiction Studies"
+- Body and Medicine
+  - {% post_url 2021-03-09-gwss390-zine %}

@@ -7,7 +7,8 @@
     <div class="timeline-panel grid-block">
       <div class="timeline-heading">
       {% if exp.organization %}
-        <h4 class="timeline-title">{{ exp.organization }}</h4>
+        <h4 class="timeline-title">
+          <a href="{{ exp.url }}">{{ exp.organization }}</a></h4>
       {% elsif exp.company %}
         <h4 class="timeline-title">
           <a href="{{ exp.url }}">{{ exp.title }}</a></h4>

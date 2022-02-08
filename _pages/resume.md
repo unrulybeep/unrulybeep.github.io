@@ -37,7 +37,7 @@ collection: resume
         {% assign section = site.resume | where:"type","employment" %}
         {% include timeline.html %}
 
-        <h3 class="title with-icon"><span class="fa fa-book cat-title" aria-hidden="true"></span>Education History</h3>
+        <h3 class="title with-icon"><span class="bi bi-book cat-title" aria-hidden="true"></span>Education History</h3>
         {% assign section = site.resume | where:"type","education" %}
         {% include timeline.html %}
       </div>
