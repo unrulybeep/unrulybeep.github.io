@@ -2,15 +2,15 @@
     <ul class="list-unstyled list-skills">
         {% for data in section %}
           {% if data.name %}
-            <li>
-              <span class="caption-skill">{{ data.name }}</span>
-              <div class="progress">
-                <div class="progress-bar" style="width: {{ data.percentage }}">
-                  <span>{{ data.percentage }} </span>
-                </div>
+          <li>
+            <span class="caption-skill">{{ data.name }}</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: {{ data.percentage }}">
+                <span>{{ data.percentage }} </span>
               </div>
-            </li>
-            {% endif %}
+            </div>
+          </li>
+          {% endif %}
         {% endfor %}
     </ul>
 </div>

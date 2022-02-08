@@ -27,8 +27,8 @@ html, body {
 }
 
 .grid-block {
-    background-color: #f0f0f0;
-    background-color: rgba(255, 255, 255, 0.4);
+//    background-color: #f0f0f0;
+//    background-color: rgba(255, 255, 255, 0.4);
     border: 1px solid #dddddd;
     padding: 15px 25px;
     margin: 10px 0;
@@ -67,14 +67,13 @@ html, body {
     padding-bottom: 10px;
     position: absolute;
     left: 0;
-    background: #249EBD;
+    background: $resume-brand;
     padding: 5px;
     color: white;
     min-width: 30px;
     text-align: center;
     top: -6px;
     min-height: 20px;
-//    padding-bottom: 13px;
     border-radius: 5px;
 }
 
@@ -84,7 +83,7 @@ html, body {
     left: 50%;
     margin-left: -10px;
     bottom: -10px;
-    border-top: 10px solid #249EBD;
+    border-top: 10px solid $resume-brand;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
@@ -113,9 +112,7 @@ html, body {
 }
 
 body {
-//  max-width: $content-width;
   font-family: $base-font-family;
-//  margin: 0 auto;
   line-height: $base-line-height;
   font-size: $base-font-size;
   color: $text-color;

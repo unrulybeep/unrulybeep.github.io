@@ -63,7 +63,7 @@ collection: resume
 
         {% if site.workshopsCerts %}
           <h3 class="title with-icon">
-          <span class="bi bi-card-check cat-title" aria-hidden="true"></span>Workshops/Trainings</h3>
+          <span class="bi bi-card-checklist cat-title" aria-hidden="true"></span>Workshops/Trainings</h3>
           <div class="grid-block">
             <ul class="list-unstyled list-strip">
             {% for entry in site.workshopsCerts %}
