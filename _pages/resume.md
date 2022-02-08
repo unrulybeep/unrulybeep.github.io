@@ -7,7 +7,7 @@ published: true
 collection: resume
 ---
 <style>
-@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+
 
 </style>
   <div class="container-fluid">
@@ -16,7 +16,7 @@ collection: resume
 
         <div id="pitch">
           <h3 class="title with-icon">
-            <span class="glyphicon glyphicon-blackboard cat-title"></span>Elevator
+            <span class="bi bi-easel cat-title"></span>Elevator
           Pitch
           </h3>
           <div class="timeline-panel grid-block">
@@ -31,17 +31,19 @@ collection: resume
             reader and debugger of code; I am adept at reviewing existing to identify and reverse-engineer elegant solutions.</div>
           </div>
 
-        <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
+          <div class="deviter"></div>
+
+        <h3 class="title with-icon"><span class="bi bi-pencil-square cat-title" aria-hidden="true"></span>Work History</h3>
         {% assign section = site.resume | where:"type","employment" %}
         {% include timeline.html %}
 
-        <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
+        <h3 class="title with-icon"><span class="fa fa-book cat-title" aria-hidden="true"></span>Education History</h3>
         {% assign section = site.resume | where:"type","education" %}
         {% include timeline.html %}
       </div>
       <div class="col-md-4">
 
-        <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
+        <h3 class="title with-icon"><span class="bi bi-code-slash cat-title" aria-hidden="true"></span> Programming Skills</h3>
         {% if site.programmingSkills %}
           {% assign section = site.programmingSkills %}
           {% include sidebar-meter.html %}
@@ -50,7 +52,7 @@ collection: resume
         <div class="deviter"></div>
 
         <h3 class="title with-icon">
-        <span class="glyphicon glyphicon-adjust cat-title"></span>Design
+        <span class="bi bi-brush cat-title" aria-hidden="true"></span>Design
         Skills</h3>
         {% if site.designSkills %}
           {% assign section = site.designSkills %}
@@ -61,7 +63,7 @@ collection: resume
 
         {% if site.workshopsCerts %}
           <h3 class="title with-icon">
-          <span class="glyphicon glyphicon-certificate cat-title"></span>Workshops/Trainings</h3>
+          <span class="bi bi-card-check cat-title" aria-hidden="true"></span>Workshops/Trainings</h3>
           <div class="grid-block">
             <ul class="list-unstyled list-strip">
             {% for entry in site.workshopsCerts %}

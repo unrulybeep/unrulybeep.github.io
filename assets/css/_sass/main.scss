@@ -2,9 +2,114 @@ html, body {
   height: 100%;
 }
 
+// Added to let Resume be wider than the other pages
 .default-width {
   max-width: $content-width;
   margin: 0 auto;
+}
+
+// Resume grid classes
+.grid-block:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent #ebebeb #ebebeb transparent;
+    border-style: solid;
+    border-width: 20px;
+}
+
+.grid-block h4 {
+    word-wrap: break-word;
+}
+
+.grid-block {
+    background-color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #dddddd;
+    padding: 15px 25px;
+    margin: 10px 0;
+}
+
+.grid-block:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent #ddd #ddd transparent;
+    border-style: solid;
+    border-width: 21px;
+}
+
+// Resume title defaults
+.title {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title.with-icon {
+    padding-left: 50px;
+}
+
+.title .cat-title {
+    margin-right: 5px;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 0;
+    background: #249EBD;
+    padding: 5px;
+    color: white;
+    min-width: 30px;
+    text-align: center;
+    top: -6px;
+    min-height: 20px;
+//    padding-bottom: 13px;
+    border-radius: 5px;
+}
+
+.title .cat-title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    bottom: -10px;
+    border-top: 10px solid #249EBD;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+// Resume header + width
+.deviter {
+    height: 1px;
+    margin: 10px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.header li {
+    list-style-type: none;
+    padding: 4px 0;
+}
+
+.full-width {
+  max-width: 1200px;
+  font-size: 14px;
+}
+
+.header ul {
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 body {
