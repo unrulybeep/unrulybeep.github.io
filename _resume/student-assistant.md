@@ -4,7 +4,8 @@ company: Gender, Women, and Sexuality Studies Department at University of Washin
 location: Seattle, WA, USA
 title: Student Assistant
 started: 2019
-duration: April 2019 - June 2019)
+duration: April 2019 - June 2019
+ended: 2019
 description: "Supervised by Laura Marquez, the undergraduate adviser at the time,
 to provide me with an opportunity to see how advising operates from the staff
 perspective. As a first-generation student I was not familiar with many of the

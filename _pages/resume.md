@@ -34,11 +34,13 @@ collection: resume
           <div class="deviter"></div>
 
         <h3 class="title with-icon"><span class="bi bi-pencil-square cat-title" aria-hidden="true"></span>Work History</h3>
-        {% assign section = site.resume | where:"type","employment" %}
+        {% assign section = site.resume | where:"type","employment"
+        | sort_natural: "ended" | reverse %}
         {% include timeline.html %}
 
         <h3 class="title with-icon"><span class="bi bi-book cat-title" aria-hidden="true"></span>Education History</h3>
-        {% assign section = site.resume | where:"type","education" %}
+        {% assign section = site.resume | where:"type","education"
+        | reverse %}
         {% include timeline.html %}
       </div>
       <div class="col-md-4">
@@ -49,13 +51,38 @@ collection: resume
           {% include sidebar-meter.html %}
         {% endif %}
 
+        {% if site.frameWorks %}
+          <h3 class="title with-icon">
+          <span class="bi bi-card-checklist cat-title" aria-hidden="true"></span>Frameworks</h3>
+          <div class="grid-block">
+            <ul class="list-unstyled list-strip">
+            {% for entry in site.frameWorks %}
+              {% if entry.name %}
+              <li>
+                <span class="fa fa-check"></span>
+                {{ entry.name }}
+              </li>
+              {% endif %}
+            {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+
         <div class="deviter"></div>
 
         <h3 class="title with-icon">
-        <span class="bi bi-brush cat-title" aria-hidden="true"></span>Design
-        Skills</h3>
+        <span class="bi bi-brush cat-title" aria-hidden="true"></span>Photo/Graphic Software</h3>
         {% if site.designSkills %}
           {% assign section = site.designSkills %}
+          {% include sidebar-meter.html %}
+        {% endif %}
+
+        <div class="deviter"></div>
+
+        <h3 class="title with-icon">
+        <span class="bi bi-brush cat-title" aria-hidden="true"></span>Frontend Design</h3>
+        {% if site.designSkills %}
+          {% assign section = site.frontend %}
           {% include sidebar-meter.html %}
         {% endif %}
 

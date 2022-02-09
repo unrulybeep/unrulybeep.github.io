@@ -5,6 +5,7 @@ location: Remote, USA
 title: Intern - Rural High School Program
 started: 2018
 duration: September 2018 - December 2018
+ended: 2018
 description: "Supervised by Kate Filpatrick. I participated in ChickTech events,
 oversaw the organization's social media prescence, create promotional materials,
 and developed best practice informational material for volunteers leaders."

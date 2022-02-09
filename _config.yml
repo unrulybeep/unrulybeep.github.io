@@ -1,7 +1,7 @@
 ### your site title here
 
-title: Your Name
-description: pronouns they/them | affiliations | motto
+title: Elle Brown
+description: pronouns they/them | affiliations | Who says? Why not?
 
 baseurl: "" #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
@@ -43,9 +43,6 @@ collections:
     output: true
     order:
       - program-coordinator.md
-      - research-assistant.md
-      - student-assistant.md
-      - intern.md
 
 include: ['_pages', '_projects', '_resume']
 
@@ -54,8 +51,8 @@ programmingSkills:
     name:
     percentage: 100%
   - skill2:
-    name: "Bootstrap"
-    percentage: 90%
+    name:
+    percentage:
   - skill3:
     name: "JavaScript"
     percentage: 70%
@@ -63,11 +60,11 @@ programmingSkills:
     name: "Java"
     percentage: 70%
   - skill5:
-    name: "Google App Scripts (GAS)"
+    name: "Google App Scripts/Engine (GAS/GAE)"
     percentage: 75%
   - skill6:
-    name: "Liquid"
-    percentage: 75%
+    name:
+    percentage:
 designSkills:
   - skill1:
     name: "Photoshop"
@@ -76,14 +73,30 @@ designSkills:
     name: "InDesign"
     percentage: 40%
   - skill3:
+    name:
+    percentage: 100%
+  - skill4:
+    name:
+    percentage: 90%
+  - skill5:
+    name:
+    percentage: 75%
+frontend:
+  - skill1:
+    name: "React.js"
+    percentage: 80%
+  - skill2:
+    name: "Bootstrap"
+    percentage: 90%
+  - skill3:
     name: "HTML/CSS"
     percentage: 100%
   - skill4:
     name: "Sass"
     percentage: 90%
   - skill5:
-    name:
-    percentage: 75%
+    name: "Liquid"
+    percentage: 85%
 workshopsCerts:
   - entry1:
     type: "UW Workshop"
@@ -113,23 +126,35 @@ workshopsCerts:
     date: 2017
     url: "https://www.washington.edu/news/2011/12/07/green-dot-now-a-cfd-choice-seeks-to-reduce-personal-power-based-violence"
   - entry6:
-    type: LinkedIn
+    type: LinkedIn Learning
     title: "Google Apps Script for JavaScript Developers"
     instructor: Jesse Freeman
     date: 2021
     url: "https://www.linkedin.com/learning/google-apps-script-for-javascript-developers"
   - entry7:
-    type: LinkedIn
+    type: LinkedIn Learning
     title: "Google Sites Essential Training"
     instructor: Jess Stration
     date: 2021
     url: "https://www.linkedin.com/learning/google-sites-essential-training-3"
   - entry8:
-    type: LinkedIn
+    type: LinkedIn Learning
     title: "Microsoft Collaboration SharePoint, Teams, and Groups"
     instructor: Gini von Courter
     date: 2021
     url: "https://www.linkedin.com/learning/microsoft-collaboration-sharepoint-teams-and-groups"
+frameWorks:
+  - skill1:
+    name: Jekyll
+  - skill2:
+    percentage: 90%
+  - skill3:
+    name: Kirby
+    percentage: 75%
+  - skill4:
+    name: Drupal
+    percentage: 70%
+
 
 exclude:
   - README.md

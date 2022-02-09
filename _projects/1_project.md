@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Scrpts of Violence"
-description: Woman and Violence final project
+description: "Autobiographical Digital Zine I authored for my Woman and
+Violence final project"
 collection: projects
 ---
 <div style="position: relative; width: 100%; height: 0; padding-top: 129.4118%;
