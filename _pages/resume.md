@@ -96,8 +96,12 @@ collection: resume
             {% for entry in site.workshopsCerts %}
               {% if entry.title %}
               <li>
+              {% if entry.icon %}
+                <span class="{{ entry.icon }}"></span>
+              {% else %}
                 <span class="fa fa-check"></span>
-                <span class="badge badge-green badge-right-float">{{ entry.type }}</span>
+              {% endif %}
+                <span class="resume-badge float-end">{{ entry.type }}</span>
                 {{ entry.title }}
               </li>
               {% endif %}

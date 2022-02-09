@@ -114,7 +114,7 @@ workshopsCerts:
     instructor: "Anna Marie Golden, MHCID - IT Accessibility Specialist"
     date: "June 2018"
   - entry4:
-    type: "workshop"
+    type: "UW Workshop"
     title: UndocuAlly
     instructor: "Leaders without Borders"
     date: 2019
@@ -131,18 +131,52 @@ workshopsCerts:
     instructor: Jesse Freeman
     date: 2021
     url: "https://www.linkedin.com/learning/google-apps-script-for-javascript-developers"
+    icon: "bi bi-linkedin"
   - entry7:
     type: LinkedIn Learning
     title: "Google Sites Essential Training"
     instructor: Jess Stration
     date: 2021
     url: "https://www.linkedin.com/learning/google-sites-essential-training-3"
+    icon: "bi bi-linkedin"
   - entry8:
     type: LinkedIn Learning
     title: "Microsoft Collaboration SharePoint, Teams, and Groups"
     instructor: Gini von Courter
     date: 2021
     url: "https://www.linkedin.com/learning/microsoft-collaboration-sharepoint-teams-and-groups"
+    icon: "bi bi-linkedin"
+  - entry9:
+    type: UW POD
+    title: "Accomplishing More With Less"
+    instructor: Gini von Courter
+    date: "June 2020"
+  - entry10:
+    type: UW POD
+    title: "Communication Style: Creating Positive Relationships and Results"
+    instructor: Gini von Courter
+    date: "January 2020"
+  - entry11:
+    type: UW POD
+    title: "Managing Up — acceptable as a substitute for Understand and
+    Influence Your Work Culture"
+    instructor: Gini von Courter
+    date: "March 2021"
+  - entry12:
+    type: UW POD
+    title: "Planning and Facilitating Effective Meetings"
+    instructor: Gini von Courter
+    date: "April 2021"
+  - entry13:
+    type: UW POD
+    title: "Project Management Essentials"
+    instructor: Gini von Courter
+    date: "January 2021"
+  - entry14:
+    type: UW POD
+    title: "Writing Policies and Procedures"
+    instructor:
+    date: "February 2021"
 frameWorks:
   - skill1:
     name: Jekyll
