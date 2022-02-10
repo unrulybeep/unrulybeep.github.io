@@ -8,6 +8,7 @@ collection: resume
 ---
   <div class="container-fluid">
     <div class="row">
+    <div class="deviter"></div>
       <div class="col-md-8">
 
         <div id="pitch">
@@ -52,27 +53,33 @@ collection: resume
 
       <div class="col-md-4">
 
-        <h3 class="title with-icon"><span class="bi bi-code-slash cat-title" aria-hidden="true"></span> Programming Skills</h3>
+        <h3 class="title with-icon">
+          <span class="bi bi-code-slash cat-title" aria-hidden="true"></span> Programming Skills
+        </h3>
         {% if site.programmingSkills %}
         {% assign section = site.programmingSkills %}
           {% include sidebar-meter.html %}
         {% endif %}
 
+        <div class="deviter"></div>
+
         {% if site.frameWorks %}
-          <h3 class="title with-icon">
-          <span class="bi bi-card-checklist cat-title" aria-hidden="true"></span>Frameworks</h3>
-          <div class="grid-block">
-            <ul class="list-unstyled list-strip">
-            {% for entry in site.frameWorks %}
+        <h3 class="title with-icon">
+          <span class="bi bi-card-checklist cat-title" aria-hidden="true"></span>Frameworks
+        </h3>
+
+        <div class="grid-block">
+          <ul class="list-unstyled list-strip">
+          {% for entry in site.frameWorks %}
             {% if entry.name %}
-              <li>
-                <span class="fa fa-check"></span>
-                {{ entry.name }}
-              </li>
+            <li>
+              <span class="fa fa-check"></span>
+              {{ entry.name }}
+            </li>
             {% endif %}
-            {% endfor %}
-            </ul>
-          </div>
+          {% endfor %}
+          </ul>
+        </div>
         {% endif %}
 
         <div class="deviter"></div>
@@ -95,26 +102,12 @@ collection: resume
 
         <div class="deviter"></div>
 
-        {% if site.workshopsCerts %}
-          <h3 class="title with-icon">
-          <span class="bi bi-card-checklist cat-title" aria-hidden="true"></span>Workshops/Trainings</h3>
-          <div class="grid-block">
-            <ul class="list-unstyled list-strip">
-            {% for entry in site.data.workshops %}
-              {% if entry.title %}
-              <li>
-              {% if entry.icon %}
-                <span class="{{ entry.icon }}"></span>
-              {% else %}
-                <span class="fa fa-check"></span>
-              {% endif %}
-                <span class="resume-badge float-end">{{ entry.type }}</span>
-                {{ entry.title }}
-              </li>
-              {% endif %}
-            {% endfor %}
-            </ul>
-          </div>
+        {% if site.data.workshops %}
+        <h3 class="title with-icon">
+          <span class="bi bi-card-checklist cat-title" aria-hidden="true">
+        </span>Workshops/Trainings</h3>
+        {% assign section = site.data.workshops %}
+          {% include sidebar-list.html %}
         {% endif %}
       </div>
     </div>

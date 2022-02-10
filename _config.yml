@@ -58,7 +58,7 @@ programmingSkills:
     name: "Java"
     percentage: 70%
   - skill5:
-    name: "Google App Scripts/Engine (GAS/GAE)"
+    name: "Google App Scripts/Engine"
     percentage: 75%
   - skill6:
     name:

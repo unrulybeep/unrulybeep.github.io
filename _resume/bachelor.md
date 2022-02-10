@@ -22,3 +22,5 @@ Courses:
 - "Feminist (Science) Fiction Studies"
 - Body and Medicine
   - {% post_url 2021-03-09-gwss390-zine %}
+
+Panel Presentation, “Internship Share,” From Classroom to Conference Room: How an Internship Can Get You Where You Want to Go, 14-02-2019.

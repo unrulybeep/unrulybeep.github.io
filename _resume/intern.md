@@ -18,7 +18,7 @@ type: employment
 ·	Created best practices and train-the-trainers video for 1,500 organization employees and volunteers nationwide (https://drive.google.com/open?id=1XLSfg3n6h07rksc6qKKxdUbXW9tVN-SF)
 ·	Led community outreach through communication with 6 schools and 18 school contacts which I managed through Airtable, Yet Another Mail Merge, Google Drive, Google Suite
 ·	Conducted social media outreach strategy focused on volunteer outreach, marketing programs, and engaging community interest
-·	Kept detailed and effective notes on my remote work, which led to high levels of communication and collaboration with my supervisor
+![](https://www.canva.com/design/DADHUoqqxOc/CoLGscz9HbhgijClbLS39A/view?utm_content=DADHUoqqxOc)
 ·	Researched Youth outreach framework
 ·	Developed adaptable critical pedagogy curriculum development based in response to alleged “feminist agenda”
 ·	Participated in Seattle ChickTech chapter K-4 event at Living Labs Museum teaching 60 elementary and middle school girls how to use technology to create music with Makey Makey and Ozobot.
