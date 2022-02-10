@@ -1,0 +1,25 @@
+
+{% for exp in section %}
+    <div class="timeline-panel grid-block">
+      {% if exp.name %}
+      <div class="timeline-title">
+        <a href="{{ exp.url }}">{{ exp.name }}</a>
+      </div>
+      {% endif %}
+      <small class="text-muted">
+      {% if exp.org %}
+        {{ exp.org }} |
+      {% endif %}
+
+      {% if exp.date %}
+        <span class="fa fa-calendar"></span>
+        {{ exp.date }}
+      {% endif %}
+      </small>
+      <div class="timeline-body">
+      {% if exp.description %}
+        <p>{{ exp.description }}</p>
+      {% endif %}
+      </div>
+    </div>
+{% endfor %}

@@ -1,0 +1,66 @@
+- type: "UW Workshop"
+  title:
+  instructor:
+  date:
+
+- type: "UW Workshop"
+  title: "How to make PDFs accessible"
+  instructor: "Anna Marie Golden, MHCID - IT Accessibility Specialist"
+  date: "June 2018"
+- type: "UW Workshop"
+  title: "How to make web content accessible"
+  instructor: "Anna Marie Golden, MHCID - IT Accessibility Specialist"
+  date: "June 2018"
+- type: "UW Workshop"
+  title: UndocuAlly
+  instructor: "Leaders without Borders"
+  date: 2019
+  url: "https://depts.washington.edu/ecc/lwb/"
+- type: "UW Workshop"
+  title: Green Dot
+  instructor: "LiveWell UW"
+  date: 2017
+  url: "https://www.washington.edu/news/2011/12/07/green-dot-now-a-cfd-choice-seeks-to-reduce-personal-power-based-violence"
+- type: LinkedIn Learning
+  title: "Google Apps Script for JavaScript Developers"
+  instructor: Jesse Freeman
+  date: 2021
+  url: "https://www.linkedin.com/learning/google-apps-script-for-javascript-developers"
+  icon: "bi bi-linkedin"
+- type: LinkedIn Learning
+  title: "Google Sites Essential Training"
+  instructor: Jess Stration
+  date: 2021
+  url: "https://www.linkedin.com/learning/google-sites-essential-training-3"
+  icon: "bi bi-linkedin"
+- type: LinkedIn Learning
+  title: "Microsoft Collaboration SharePoint, Teams, and Groups"
+  instructor: Gini von Courter
+  date: 2021
+  url: "https://www.linkedin.com/learning/microsoft-collaboration-sharepoint-teams-and-groups"
+  icon: "bi bi-linkedin"
+- type: UW POD
+  title: "Accomplishing More With Less"
+  instructor: Gini von Courter
+  date: "June 2020"
+- type: UW POD
+  title: "Communication Style: Creating Positive Relationships and Results"
+  instructor: Gini von Courter
+  date: "January 2020"
+- type: UW POD
+  title: "Managing Up — acceptable as a substitute for Understand and
+  Influence Your Work Culture"
+  instructor: Gini von Courter
+  date: "March 2021"
+- type: UW POD
+  title: "Planning and Facilitating Effective Meetings"
+  instructor: Gini von Courter
+  date: "April 2021"
+- type: UW POD
+  title: "Project Management Essentials"
+  instructor: Gini von Courter
+  date: "January 2021"
+- type: UW POD
+  title: "Writing Policies and Procedures"
+  instructor:
+  date: "February 2021"

@@ -6,10 +6,6 @@ permalink: resume/
 published: true
 collection: resume
 ---
-<style>
-
-
-</style>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-8">
@@ -28,26 +24,37 @@ collection: resume
             Washington and self-directed on-the-job skill development of
             Bootstrap, Google App Scripts, Excel, React.js, and XXXXX. My
             hunmble beginnings working with HTML/CSS has flourished a skilled
-            reader and debugger of code; I am adept at reviewing existing to identify and reverse-engineer elegant solutions.</div>
+            reader and debugger of code; I am adept at reviewing existing to identify and reverse-engineer elegant solutions.
           </div>
+        </div>
 
-          <div class="deviter"></div>
+        <div class="deviter"></div>
 
-        <h3 class="title with-icon"><span class="bi bi-pencil-square cat-title" aria-hidden="true"></span>Work History</h3>
+        <h3 class="title with-icon">
+          <span class="bi bi-pencil-square cat-title" aria-hidden="true"></span>Work History</h3>
         {% assign section = site.resume | where:"type","employment"
         | sort_natural: "ended" | reverse %}
-        {% include timeline.html %}
+          {% include timeline.html %}
 
         <h3 class="title with-icon"><span class="bi bi-book cat-title" aria-hidden="true"></span>Education History</h3>
         {% assign section = site.resume | where:"type","education"
         | reverse %}
-        {% include timeline.html %}
+          {% include timeline.html %}
+
+        <div class="deviter"></div>
+
+        <h3 class="title with-icon">
+          <span class="bi bi-award cat-title"></span>Awards and Honors
+        </h3>
+        {% assign section = site.data.awards %}
+          {% include widebox.html %}
       </div>
+
       <div class="col-md-4">
 
         <h3 class="title with-icon"><span class="bi bi-code-slash cat-title" aria-hidden="true"></span> Programming Skills</h3>
         {% if site.programmingSkills %}
-          {% assign section = site.programmingSkills %}
+        {% assign section = site.programmingSkills %}
           {% include sidebar-meter.html %}
         {% endif %}
 
@@ -57,12 +64,12 @@ collection: resume
           <div class="grid-block">
             <ul class="list-unstyled list-strip">
             {% for entry in site.frameWorks %}
-              {% if entry.name %}
+            {% if entry.name %}
               <li>
                 <span class="fa fa-check"></span>
                 {{ entry.name }}
               </li>
-              {% endif %}
+            {% endif %}
             {% endfor %}
             </ul>
           </div>
@@ -93,7 +100,7 @@ collection: resume
           <span class="bi bi-card-checklist cat-title" aria-hidden="true"></span>Workshops/Trainings</h3>
           <div class="grid-block">
             <ul class="list-unstyled list-strip">
-            {% for entry in site.workshopsCerts %}
+            {% for entry in site.data.workshops %}
               {% if entry.title %}
               <li>
               {% if entry.icon %}
@@ -109,7 +116,6 @@ collection: resume
             </ul>
           </div>
         {% endif %}
-
       </div>
     </div>
   </div>
