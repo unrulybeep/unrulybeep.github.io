@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project 4
+title: "Angela Ginorio Oral History"
 description: another project
 collection: projects
 ---
