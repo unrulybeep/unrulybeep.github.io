@@ -1,8 +1,7 @@
 ---
 layout: post
-title: SIAH '18
-description: "Summer Institute of Arts & Humanities 2018 - Mary Gates Scholar
-Research Project"
+title: "Summer Institute of Arts & Humanities 2018"
+description: "SIAH '18 - Mary Gates Scholar Research Project"
 collection: projects
 ---
 
@@ -14,4 +13,11 @@ Symposium Presentation, “Towards a New Research Consciousness,” Summer Insti
 
 Posts with information carried over from deft
 
-Project phases posts
+<ul>
+  {% assign posts = site.posts | where: "tag","siah" %}
+  {% for post in posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

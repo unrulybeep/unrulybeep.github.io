@@ -13,7 +13,7 @@ type: education
 
 Courses:
 - Computer Programming (Java) CSE 142 & 143
-  - {% post_url 2022-01-01-cse142-assignments %}
+  - [CSE 142 Homework Assignments]({% post_url 2022-01-01-cse142-assignments %})
   - {% post_url 2022-01-01-cse143-assignments %}
 - "Introduction to Indigenous Studies: Indigenous Feminisms"
 - "Reading Native American Women’s Lives"

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Qualifying Evaluation Internal Tool"
+collection: resume
 ---
 
 A particularly impactful accomplishment has been having self-taught React.js to
@@ -12,5 +13,5 @@ an internal tool and port over my original designs and code. The final product
 utilizes PHP and SQL on the backend and is utilized by 400 students, staff, and
 faculty annually. I taught myself how to use React during the
 [DUB Hack’20 hackathon](https://hack20.dubhacks.co). https://codepen.io/ellesedai/pen/qBZXBxM
-React.js
+
 ![Google Drawing of Qualifying Evaluation Tool Mockup](/images/qualifying-eval.svg)

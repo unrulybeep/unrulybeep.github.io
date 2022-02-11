@@ -20,6 +20,17 @@
       {% if exp.description %}
         <p>{{ exp.description }}</p>
       {% endif %}
+      {% if exp.postsTag %}
+        {% assign counter = 0 %}
+        {% for tag in site.tags | where: tag[0], exp.postTag %}
+        {% assign counter = counter | plus: 1 %}
+        <small>{{ counter }} posts associated with this award.</small>
+        {% for post in tag[1] %}
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        {% endfor %}
+        {% endfor %}
+
+      {% endif %}
       </div>
     </div>
 {% endfor %}

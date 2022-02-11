@@ -40,7 +40,7 @@ collections:
   projects:
     output: true
   resume:
-    output: true
+    output: false
 
 include: ['_pages', '_projects', '_resume']
 
