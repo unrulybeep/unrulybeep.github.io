@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: bachelor/
 organization: University of Washington
 location: Seattle, WA, USA
 title: Bachelor

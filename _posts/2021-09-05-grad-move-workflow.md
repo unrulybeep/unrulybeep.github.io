@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Grad Move Workflow Collaboration
+experience: "Program Coordinator"
 ---
 The program coordinator oversees graduate student office/workroom
 assignments. The work included the operations team and the support team. In

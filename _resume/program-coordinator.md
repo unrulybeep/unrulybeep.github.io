@@ -2,7 +2,7 @@
 layout: post
 company: Paul G. Allen School of Computer Science and Engineering at University of Washington
 location: Seattle, WA, USA
-title: Program Coordinator
+title: "Program Coordinator"
 started: 2019
 duration: July 2019 - Present
 ended: Present

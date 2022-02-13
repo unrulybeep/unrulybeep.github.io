@@ -1,5 +1,5 @@
 <ul class="timeline">
-  
+
 {% for exp in section %}
   <li class="timeline-inverted">
   {% if exp.started %}
@@ -42,6 +42,15 @@
     <div class="timeline-body">
     {% if exp.description %}
       <p>{{ exp.description }}</p>
+    {% endif %}
+
+    {% if exp.type == "education" %}
+      {% assign counter = 0 %}
+
+      {% for award in site.data.awards | where: "experience", "{{exp.title}}" %}
+          {% assign counter = counter | plus: 1 %}
+      {% endfor %}
+      <small>{{ counter }} awards associated with this degree.</small>
     {% endif %}
     </div>
   </div>
