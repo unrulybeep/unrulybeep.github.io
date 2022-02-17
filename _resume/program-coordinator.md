@@ -11,6 +11,11 @@ collection: resume
 type: employment
 ---
 
+## Qualifying Evaluation Internal Tracking Tool
+[Qualifying Evaluation React.js]({% post_url 2020-07-22-qualifying-evaluation %})
+
+[Generate Slide GAS]({% post_url 2020-06-19-gas-generateslide %})
+
 ## Frontend Design
 ### Allen School Ph.D. Admissions
 - [Current Ph.D. Admissions Webpage](https://www.cs.washington.edu/academics/phd/admissions)

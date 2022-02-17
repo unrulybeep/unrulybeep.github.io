@@ -9,6 +9,15 @@
     border-radius: 50%;
 }
 
+/* Profile */
+.profile-box {
+    outline: $resume-purple dashed;
+    outline-offset: 5px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
 .left {
     float: left;
 }

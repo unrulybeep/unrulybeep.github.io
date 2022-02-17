@@ -4,8 +4,25 @@ layout: default
 
 {% if page.profile %}
     {% if page.profile.image %}
-      <img class="profile {{ page.profile.align }}"  width="33.33%" src="{{ page.profile.image | prepend: '/assets/images/' | prepend: site.baseurl | prepend: site.url }}">
+      <img class="profile float-end"  width="33.33%"
+      src="{{ page.profile.image | prepend: '/assets/images/'
+      | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
 {% endif %}
 
 {{ content }}
+
+<div class="profile-box float-start" width="33.33%>
+  🏳️‍🌈<small><a href="https://moreprideemojis.com/flags/asexual.html">more
+  pride emojis</a></small>‍ 🖤🐘🤍💜 |
+  <small><a href=https://www.mypronouns.org">MyPronouns</a></small>
+</div>
+
+<h4>RSS Reader (JavaScript)</h4>
+<output>Loading...</output>
+<template>
+  <h2></h2>
+  <h3></h3>
+  <a href='#'></a>
+  <p></p>
+</template>
