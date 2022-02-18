@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: associate/
 organization: Portland Community College
 location: Portland, OR, USA
 title: Associate

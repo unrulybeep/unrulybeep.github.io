@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: research-assistant/
 company: Gender, Women, and Sexuality Studies Department at University of Washington
 location: Seattle, WA, USA
 title: Research Assistant

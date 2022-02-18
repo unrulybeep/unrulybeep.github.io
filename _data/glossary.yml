@@ -1,0 +1,12 @@
+- term: Softcode
+  definition: "Softcode is the domain of using softcode functions and
+  softcode commands provided by the server's hardcode for building or
+  globals commands. Input from players may match exit names, global
+  commands written in softcode, or built-in softcode commands provided
+  by the server itself."
+  url: https://wiki.tinymux.org/index.php/Softcode
+- term: SSG
+  definition: A Static Site Generator compiles the website before deployment. Then the generated web content is simply retrieved as-is by the client without any code running at retrieve time.
+- term: Jamstack
+  definition: JavaScript + API + Markup - a way of buildin and hosting websites.
+  url: https://jamstack.org/

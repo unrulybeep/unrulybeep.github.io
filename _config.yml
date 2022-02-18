@@ -1,7 +1,14 @@
 ### your site title here
 
 title: Elle Brown
-description: pronouns they/them | affiliations | Who says? Why not?
+description:
+  - one:
+    name: they/them
+    url: https://www.mypronouns.org/they-them
+  - two:
+    name: affiliations
+  - three:
+    name: Who says? Why not?
 
 baseurl: "" #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
@@ -82,16 +89,16 @@ designSkills:
 frontend:
   - skill1:
     name: "React.js"
-    percentage: 80%
+    percentage: 60%
   - skill2:
     name: "Bootstrap"
     percentage: 90%
   - skill3:
     name: "HTML/CSS"
-    percentage: 100%
+    percentage: 90%
   - skill4:
     name: "Sass"
-    percentage: 90%
+    percentage: 70%
   - skill5:
     name: "Liquid"
     percentage: 85%
@@ -117,3 +124,4 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-email-protect
+  - jekyll-twitter-plugin

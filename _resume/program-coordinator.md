@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: program-coordinator/
 company: Paul G. Allen School of Computer Science and Engineering at University of Washington
 location: Seattle, WA, USA
 title: "Program Coordinator"

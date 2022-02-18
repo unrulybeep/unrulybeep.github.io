@@ -251,7 +251,7 @@ a {
   }
 }
 
-p a {
+p a, .enable-link {
   color: $text-color;
   text-decoration: none;
   background: -webkit-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);

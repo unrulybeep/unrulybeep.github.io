@@ -6,7 +6,20 @@
   {% include head.html %}
   <div class="default-width">
     <h1 class="post-headline">{{site.title}}</h1>
-    <h3 class="post-description">{{site.description}}</h3>
+    <h3 class="post-description">
+      {% assign last = site.description | last %}
+      {% for tagline in site.description %}
+        {% if tagline.url %}
+          <a class="enable-link" href="{{ tag.url }}">{{ tagline.name }}</a>
+        {% else %}
+          {{ tagline.name }}
+        {% endif %}
+        {% if last.name == tagline.name %}
+
+        {% else %}
+        |
+        {% endif %}
+      {% endfor %}
 
     {% include navigation.html %}
   </div>
@@ -35,7 +48,7 @@
           </small>
         </p>
 
-        {% include social-footer.html %}
+        {% include social-icons.html %}
 
       </footer>
     </body>
