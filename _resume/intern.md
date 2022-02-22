@@ -13,6 +13,8 @@ and developed best practice informational material for volunteers leaders."
 collection: resume
 type: employment
 ---
+- 
+{:toc}
 
 ·	Supported development of Rural pilot by facilitating interactions between the organization chapters and their local rural communities with a focus on Native American tribes
 ·	Researched case studies of previous rural Kick Off events to troubleshoot problems with creative solutions

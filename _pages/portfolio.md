@@ -4,11 +4,13 @@ layout: default
 permalink: portfolio
 published: true
 ---
+- 
+{:toc}
 
 ## Programming Examples
 ### CSE 142 & CSE 143 Java Programming coursework
-- [CSE 142 Post with Code Files]({% post_url 2022-01-01-cse142-assignments %})
-- [CSE 143 Post with Code Files]({% post_url 2022-01-01-cse143-assignments %})
+- [CSE 142 Post with Code Files]({% post_url 2022-01-01-cse142 %})
+- [CSE 143 Post with Code Files]({% post_url 2022-01-01-cse143 %})
 
 ### Allen School Space Request Internal Tool
 ![Google Drawing of Space Request Internal Tool Updates](/assets/images/space-request.svg)

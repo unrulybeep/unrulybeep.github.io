@@ -1,4 +1,4 @@
-# Gradfolio
+# unrulybeep
 ## Plugins Used
 - [Jekyll Email Protect](https://github.com/vwochnik/jekyll-email-protect)
 `<a href="mailto:{{ site.email | encode_email }}" title="Contact me">Contact me</a>`
@@ -7,7 +7,7 @@
 - [Jekyll Glossary Tooltip](https://github.com/erikw/jekyll-glossary_tooltip)
 `{% glossary term_name %}`
 
-## Based on
+## Theme Inspo
 [Gradfolio](https://jitinnair1.github.io/gradfolio/)
 
 ## License

@@ -45,12 +45,10 @@
     {% endif %}
 
     {% if exp.type == "education" %}
-      {% assign counter = 0 %}
-
-      {% for award in site.data.awards | where: "experience", "{{exp.title}}" %}
-          {% assign counter = counter | plus: 1 %}
-      {% endfor %}
-      <small>{{ counter }} awards associated with this degree.</small>
+      {% assign num = site.data.awards | where: "experience", exp.title | size %}
+      {% if num > 0 %}
+        <small class="col align-self-end">{{ num }} awards associated with this degree.</small>
+      {% endif %}
     {% endif %}
     </div>
   </div>

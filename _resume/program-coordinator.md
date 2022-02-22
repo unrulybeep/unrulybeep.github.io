@@ -11,14 +11,17 @@ description: The Program Coordinator – Student Advising position provides gene
 collection: resume
 type: employment
 ---
+- 
+{:toc}
 
-## Qualifying Evaluation Internal Tracking Tool
+## Objectives Outcome
+### Qualifying Evaluation Internal Tracking Tool
 [Qualifying Evaluation React.js]({% post_url 2020-07-22-qualifying-evaluation %})
 
 [Generate Slide GAS]({% post_url 2020-06-19-gas-generateslide %})
 
-## Frontend Design
-### Allen School Ph.D. Admissions
+### Frontend Design
+#### Allen School Ph.D. Admissions
 - [Current Ph.D. Admissions Webpage](https://www.cs.washington.edu/academics/phd/admissions)
   - I wrote and designed the “Admissions Highlights” block.
   - [Wayback Machine (08/2019)](https://web.archive.org/web/20190826223420/www.cs.washington.edu/academics/phd/admissions) from just after I was hired for this position.
@@ -27,21 +30,21 @@ type: employment
 ![Google Drawing of Graduate Program Admissions Process](/assets/images/admissions-mockup.svg)
 - [GitLab Repository of Public webpages for Ph.D. program](https://gitlab.cs.washington.edu/ellean/phd-public)
   - I maintain the repository, and currently I am the only team member who knows HTML/CSS and how to use Git.
-### Allen School Advising Info & Contact info
+#### Allen School Advising Info & Contact info
 - https://www.cs.washington.edu/academics/phd/advising
   - [Wayback Machine (07/2019)](https://web.archive.org/web/20190702080054/https:/www.cs.washington.edu/academics/phd/advising)
-### Allen School New Graduate Orientation calendar
+#### Allen School New Graduate Orientation calendar
 - https://www.cs.washington.edu/students/newgrad/orientation
   - ![Wayback Machine didn’t crawl this site](/assets/images/orig-orientation.png)
-### Allen School Space Request Internal Tool
+#### Allen School Space Request Internal Tool
 ![Google Drawing of Space Request Internal Tool Updates](/assets/images/space-request.svg)
 
 ### Google App Script/Engine (GAS/GAE)
-## Graduate Advising Email Templates Webapp
+#### Graduate Advising Email Templates Webapp
 - Currently under development with Supervisor oversight
 - [Google App Script Project Link](https://script.google.com/d/1rP2x-6Y90S4CE0Vr7EgWua3p5i-bwGeLgv96hszF-p7rVfDxdJcjmF-F/edit?usp=sharing)
 
-## Program Coordinator Automation Hub
+#### Program Coordinator Automation Hub
 -	Google Sheet project that includes:
   - Mail Merge
   -	Script to generate two columns from spreadsheet data (screenshot below)

@@ -1,6 +1,9 @@
 - name: Service Award
   org: Gender, Women, and Sexuality Studies Department
   date: June 2019
+  collection: resume
+  type: education
+  experience: Bachelor
   description: "An award offered to anyone associated with the GWSS department.
   It is an award offered to someone who made a difference and/or supported the
   department. Nominations could be made by GWSS Faculty, Students, Staff, or
@@ -9,6 +12,9 @@
 - name: Husky 100 Nominee
   org: University of Washington
   date: 2019
+  collection: resume
+  type: education
+  experience: "Bachelor"
   description: "Each year, the Husky 100 recognizes 100 undergraduate and
   graduate students from the UW Bothell, Seattle and Tacoma campuses in all
   areas of study who are making the most of their time at the UW."
