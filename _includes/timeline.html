@@ -47,7 +47,7 @@
     {% if exp.type == "education" %}
       {% assign num = site.data.awards | where: "experience", exp.title | size %}
       {% if num > 0 %}
-        <small class="col align-self-end">{{ num }} awards associated with this degree.</small>
+        <small class="float-end">{{ num }} awards associated with this degree.</small>
       {% endif %}
     {% endif %}
     </div>

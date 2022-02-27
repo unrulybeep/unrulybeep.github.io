@@ -2,12 +2,12 @@
 
 title: Elle Brown
 description:
-  - one:
+  - pronouns:
     name: they/them
     url: https://www.mypronouns.org/they-them
-  - two:
+  - affiliations:
     name: affiliations
-  - three:
+  - motto:
     name: Who says? Why not?
 
 baseurl: "" #name of GitHub repository
@@ -51,70 +51,6 @@ collections:
 
 include: ['_pages', '_projects', '_resume']
 
-programmingSkills:
-  - skill1:
-    name:
-    percentage: 100%
-  - skill2:
-    name:
-    percentage:
-  - skill3:
-    name: "JavaScript"
-    percentage: 70%
-  - skill4:
-    name: "Java"
-    percentage: 70%
-  - skill5:
-    name: "Google App Scripts/Engine"
-    percentage: 75%
-  - skill6:
-    name:
-    percentage:
-designSkills:
-  - skill1:
-    name: "Photoshop"
-    percentage: 80%
-  - skill2:
-    name: "InDesign"
-    percentage: 40%
-  - skill3:
-    name:
-    percentage: 100%
-  - skill4:
-    name:
-    percentage: 90%
-  - skill5:
-    name:
-    percentage: 75%
-frontend:
-  - skill1:
-    name: "React.js"
-    percentage: 60%
-  - skill2:
-    name: "Bootstrap"
-    percentage: 90%
-  - skill3:
-    name: "HTML/CSS"
-    percentage: 90%
-  - skill4:
-    name: "Sass"
-    percentage: 70%
-  - skill5:
-    name: "Liquid"
-    percentage: 85%
-frameWorks:
-  - skill1:
-    name: Jekyll
-  - skill2:
-    percentage: 90%
-  - skill3:
-    name: Kirby
-    percentage: 75%
-  - skill4:
-    name: Drupal
-    percentage: 70%
-
-
 exclude:
   - README.md
   - LICENSE.md
@@ -125,3 +61,4 @@ plugins:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-twitter-plugin
+  - jekyll-glossary_tooltip

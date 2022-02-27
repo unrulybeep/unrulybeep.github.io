@@ -56,21 +56,19 @@ collection: resume
         <h3 class="title with-icon">
           <span class="bi bi-code-slash cat-title" aria-hidden="true"></span> Programming Skills
         </h3>
-        {% if site.programmingSkills %}
-        {% assign section = site.programmingSkills %}
+        {% assign section = site.data.resumeSkills | where: "area", "programming" %}
           {% include sidebar-meter.html %}
-        {% endif %}
 
         <div class="deviter"></div>
 
-        {% if site.frameWorks %}
         <h3 class="title with-icon">
           <span class="bi bi-card-checklist cat-title" aria-hidden="true"></span>Frameworks
         </h3>
 
         <div class="grid-block">
           <ul class="list-unstyled list-strip">
-          {% for entry in site.frameWorks %}
+          {% assign section = site.data.resumeSkills | where: "area", "framework" %}
+          {% for entry in section %}
             {% if entry.name %}
             <li>
               <span class="fa fa-check"></span>
@@ -80,25 +78,21 @@ collection: resume
           {% endfor %}
           </ul>
         </div>
-        {% endif %}
 
         <div class="deviter"></div>
 
         <h3 class="title with-icon">
         <span class="bi bi-brush cat-title" aria-hidden="true"></span>Photo/Graphic Software</h3>
-        {% if site.designSkills %}
-          {% assign section = site.designSkills %}
+
+          {% assign section = site.data.resumeSkills | where: "area", "design" %}
           {% include sidebar-meter.html %}
-        {% endif %}
 
         <div class="deviter"></div>
 
         <h3 class="title with-icon">
         <span class="bi bi-brush cat-title" aria-hidden="true"></span>Frontend Design</h3>
-        {% if site.designSkills %}
-          {% assign section = site.frontend %}
+          {% assign section = site.data.resumeSkills | where: "area", "frontend" %}
           {% include sidebar-meter.html %}
-        {% endif %}
 
         <div class="deviter"></div>
 

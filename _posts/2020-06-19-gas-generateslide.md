@@ -2,11 +2,25 @@
 layout: post
 title: "Generate Google Slide from Google Sheet Scripts"
 ---
-The Qualifying Evaluation process involves a faculty meeting. Every quarter students signup to be on the meeting agenda. A slidedeck of the students is created for each student that has specific information including Qualifying Evaluation project title, faculty advisor(s), enrollment dates, an evaluation by the faculty advisor(s) on how the student is doing in the program thus far, and a photo. Faculty in attendance then offer advice and decide whether the student should continue on in the program.
+The Qualifying Evaluation process involves a faculty meeting. Every quarter
+students signup to be on the meeting agenda. A slide deck of the students is
+created for each student that has specific information including Qualifying
+Evaluation project title, faculty advisor(s), enrollment dates, an evaluation
+by the faculty advisor(s) on how the student is doing in the program thus far,
+and a photo. Faculty in attendance then offer advice and decide whether the
+student should continue on in the program.
 
-A typical quarter has 15-20 students on the agenda. That is 45-60 slides a year that have to be constructed by hand. I wrote this script to help automate the process.
+A typical quarter has 15-20 students on the agenda. That is 45-60 slides a year
+that have to be constructed by hand. I wrote this script to help automate the
+process.
 
-The script takes the data on the current active row and sets each value to the corresponding variable name. Then an array named request is constructed where placeholder text is replaced with the value from each variable. The function goGoSlide is called and requests is passed to the function. The goGoSlide function finds the specified slide in the enactor's Google Drive, creates a copy of the slide, and replaces the placeholder text on the slide copy with the values of the requests array.
+The script takes the data on the current active row and sets each value to the
+corresponding variable name. Then an array named request is constructed where
+placeholder text is replaced with the value from each variable. The function
+goGoSlide is called and requests is passed to the function. The goGoSlide
+function finds the specified slide in the enactor's Google Drive, creates a
+copy of the slide, and replaces the placeholder text on the slide copy with the
+values of the requests array.
 
 `function GenerateSlide() {
   // Gets the row values of the active range, and its column heading

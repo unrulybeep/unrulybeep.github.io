@@ -1,0 +1,61 @@
+- name:
+  percentage: 100%
+  area: programming
+- name:
+  percentage:
+  area: programming
+- name: "JavaScript"
+  percentage: 70%
+  area: programming
+- name: "Java"
+  percentage: 70%
+  area: programming
+- name: "Google App Scripts/Engine"
+  percentage: 75%
+  area: programming
+- name:
+  percentage:
+  area: programming
+- skill1:
+  name: "Photoshop"
+  percentage: 80%
+  area: design
+- name: "InDesign"
+  percentage: 40%
+  area: design
+- name:
+  percentage: 100%
+  area: design
+- name:
+  percentage: 90%
+  area: design
+- name:
+  percentage: 75%
+  area: design
+- name: "React.js"
+  percentage: 60%
+  area: frontend
+- name: "Bootstrap"
+  percentage: 90%
+  area: frontend
+- name: "HTML/CSS"
+  percentage: 90%
+  area: frontend
+- name: "Sass"
+  percentage: 70%
+  area: frontend
+- name: "Liquid"
+  percentage: 85%
+  area: frontend
+- name: Jekyll
+  percentage: 85%
+  area: framework
+- name:
+  percentage: 90%
+  area: framework
+- name: Kirby
+  percentage: 75%
+  area: framework
+- name: Drupal
+  percentage: 70%
+  area: framework

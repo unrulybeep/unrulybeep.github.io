@@ -11,7 +11,7 @@ description: The Program Coordinator – Student Advising position provides gene
 collection: resume
 type: employment
 ---
-- 
+-
 {:toc}
 
 ## Objectives Outcome
@@ -36,6 +36,9 @@ type: employment
 #### Allen School New Graduate Orientation calendar
 - https://www.cs.washington.edu/students/newgrad/orientation
   - ![Wayback Machine didn’t crawl this site](/assets/images/orig-orientation.png)
+
+#### Allen School Internship Course Pages
+
 #### Allen School Space Request Internal Tool
 ![Google Drawing of Space Request Internal Tool Updates](/assets/images/space-request.svg)
 

@@ -3,14 +3,18 @@ layout: post
 title:  Grad Move Workflow Collaboration
 experience: "Program Coordinator"
 ---
+
+What your personal contributions were
+The results of the project
+
 The program coordinator oversees graduate student office/workroom
 assignments. The work included the operations team and the support team. In
 order to create efficiency and improve communication, Emma Gebbens, from the
-support team, and I build a set of linked Google Workspace tools. The most
+support team, and I built a set of linked Google Workspace tools. The most
 recent setup includes three (3) Google Forms, a Google Sheet, and two (2)
 Google Presentations.
 
-Below is the psudo-READ.md I created to cover the complex formuals Emma and
+Below is the psudo-READ.md I created to cover the complex formulas Emma and
 I developed to handle data across several tabs. This file was a self-driven
 inclusion to the project.
 
