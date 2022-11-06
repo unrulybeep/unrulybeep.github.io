@@ -17,13 +17,13 @@ type: education
 Courses:
 - Computer Programming (Java) CSE 142 & 143
   - [CSE 142 Homework Assignments]({% post_url 2022-01-01-cse142 %})
-  - {% post_url 2022-01-01-cse143 %}
+  - [CSE 142 Homework Assignments]({% post_url 2022-01-01-cse143 %})
 - "Introduction to Indigenous Studies: Indigenous Feminisms"
 - "Reading Native American Women’s Lives"
 - "Introduction to American Indian Studies"
 - "Feminism and Technology"
 - "Feminist (Science) Fiction Studies"
 - Body and Medicine
-  - {% post_url 2021-03-09-gwss390-zine %}
+  - [Fianl Project Blog Post]({% post_url 2021-03-09-gwss390-zine %})
 
 Panel Presentation, “Internship Share,” From Classroom to Conference Room: How an Internship Can Get You Where You Want to Go, 14-02-2019.
