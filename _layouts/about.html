@@ -4,7 +4,7 @@ layout: default
 
 {% if page.profile %}
     {% if page.profile.image %}
-      <img class="profile float-end"  width="33.33%"
+      <img class="profile float-end col"  width="33.33%"
       src="{{ page.profile.image | prepend: '/assets/images/'
       | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
@@ -23,4 +23,74 @@ layout: default
   </p>
 </div>
 
-Extra Content
+<!--- Live Resume Template https://www.bootstrapdash.com/demo/live-resume/index.htm -->
+<section class="services-section row">
+  <h6 class="section-subtitle">WHAT I DO</h6>
+  <h2 class="section-title">SERVICES</h2>
+  <div class="row">
+      <div class="media service-card col-lg-6">
+          <div class="service-icon">
+              <span class="fas fa-stamp"></span>
+          </div>
+          <div class="media-body">
+              <h5 class="service-title">Notary Public</h5>
+              <p class="service-description">I am a licensed Notary Public in
+                the Washington state. I have an electronic and remote
+                endorsement. I can travel to you, if needed, or we can utilize
+                a third-party signing service.</p>
+          </div>
+      </div>
+      <div class="media service-card col-lg-6">
+          <div class="service-icon">
+              <span class="fas fa-paw"></span>
+          </div>
+          <div class="media-body">
+              <h5 class="service-title">Pet Sitting</h5>
+              <p class="service-description">I adore animals and I would love to care for your family member. I am knowledgeable about a variety of animals, including rabbits and bully breeds. I offer an assortment of services to fit every budget. 
+              </p>
+          </div>
+      </div>
+      <div class="media service-card col-lg-6">
+          <div class="service-icon">
+              <img src="{{ development.svg | prepend: '/assets/images/'
+              | prepend: site.baseurl | prepend: site.url }}" alt="development">
+          </div>
+          <div class="media-body">
+              <h5 class="service-title">Web Development</h5>
+              <p class="service-description">I am a full-stack developer that strives to provide what my clients need at a reasonable price. My practice includes responsive design that meets Web3 accessibility standards.
+              </p>
+          </div>
+      </div>
+      <div class="media service-card col-lg-6">
+          <div class="service-icon">
+            <img src="{{ idea.svg | prepend: '/assets/images/'
+            | prepend: site.baseurl | prepend: site.url }}" alt="bulb">
+          </div>
+          <div class="media-body">
+              <h5 class="service-title">Research</h5>
+              <p class="service-description">Whether you are looking for resources and sources online, or in the publications, I can find what you need. I can create resource lists to help you start your project, outlines to direct your journey, or full reports that meet your requirements. 
+              </p>
+          </div>
+      </div>
+      <div class="media service-card col-lg-6">
+        <div class="service-icon">
+          <img src="/assets/images/idea.svg" alt="bulb">
+        </div>
+        <div class="media-body">
+            <h5 class="service-title">Editing & Content Creation</h5>
+            <p class="service-description">I offer proofreading and editing services for your reports, online articles, or papers. I have several years of content creation and copywriting experience. If you need content for your social media accounts, website, or newsletter we can work together to match your needs and budget. 
+            </p>
+        </div>
+    </div>
+    <div class="media service-card col-lg-6">
+      <div class="service-icon">
+          <span class="fas fa-paw"></span>
+      </div>
+      <div class="media-body">
+          <h5 class="service-title">Diversity & Inclusion</h5>
+          <p class="service-description">I specialize in gender, sexuality, class and disability inclusion. My background also includes worker rights and labor equity. In addition, I have resources and connections for race, ethnicity, and other inclusions.  
+          </p>
+      </div>
+  </div>
+  </div>
+</section>

@@ -31,6 +31,46 @@
     float: right;
 }
 
+// Live Resume Template https://www.bootstrapdash.com/demo/live-resume/index.html
+main {
+	.services-section {
+		margin-bottom: 34px;
+	}
+	.service-card {
+		padding-top: 11px;
+		padding-bottom: 11px;
+		&:first-child {
+			border-right: 1px solid #f3f3f3;
+		}
+		&:nth-child(3) {
+			border-right: 1px solid #f3f3f3;
+		}
+    &:nth-child(5) {
+			border-right: 1px solid #f3f3f3;
+    }
+		.service-icon {
+			width: 29.9px;
+			height: 29.9px;
+			margin-right: 17.1px;
+			display: flex;
+			height: 100%;
+			align-items: center;
+			justify-content: center;
+		}
+		.service-title {
+			font-weight: bold;
+			line-height: 1;
+			margin-bottom: 8px;
+		}
+		.service-description {
+			font-size: 14px;
+			font-weight: 300;
+			max-width: 180px;
+			margin-bottom: 0;
+		}
+	}
+}
+
 // adjust tile sizes on smaller screens
 @include media-query($on-phone) {
   @media screen and (max-width: $on-phone){

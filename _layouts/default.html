@@ -10,7 +10,7 @@
       {% assign last = site.description | last %}
       {% for tagline in site.description %}
         {% if tagline.url %}
-          <a class="enable-link" href="{{ tag.url }}">{{ tagline.name }}</a>
+          <a class="enable-link" href="{{ tagline.url }}">{{ tagline.name }}</a>
         {% else %}
           {{ tagline.name }}
         {% endif %}
